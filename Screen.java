@@ -18,11 +18,11 @@ public class Screen {
 		simulation.go();
 		simulation.openFile();
 		simulation.getCases();
-		//simulation.solveGCJ();
-		//simulation.printOut();
+		simulation.storeInputs();
+		simulation.printInputs();
 		simulation.closeFile();
-		System.out.println(simulation.getCase());
 		
 	}
 
 }
+

@@ -2,18 +2,12 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class Buttons {
-	
-	
+		
 	public Color button1 = Color.GREEN;
-	public Color button2 = Color.PINK;
-	public Color buttonPressed = Color.BLACK;
+	public Color button2 = Color.MAGENTA;
 	public static final int incrementer = 15;
 	
-	public OrangeRobot oRef = new OrangeRobot();
-	
-	public Buttons(){
-	
-	}
+	public Buttons(){}
 	
 	public void drawButton(Graphics g){
 		g.setColor(button1);
@@ -25,15 +19,5 @@ public class Buttons {
 		for(int j = 1; j <= 100; j++){
 			g.fillRect(j * incrementer , 400, 10, 10);
 		}
-	}
-
-	public boolean oPressed(Graphics g){
-		
-		if(oRef.buttonPressed()){
-			g.setColor(buttonPressed);
-			g.fillRect(oRef.xCord * 15, oRef.yCord+15, 10, 10);
-			return true;
-		}
-		return false;
 	}
 }

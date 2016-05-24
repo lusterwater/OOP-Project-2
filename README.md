@@ -1,5 +1,7 @@
 The Case that is being tested in this program is 12
 
+When the robot pressed the button it paints it white under the button they are on
+
 If you want to test the other cases out, just find the case you want to test out and copy the number into the array in the program. Also if the program simulate it too fast you can change the speed by changing the t in the constructor just the number that is getting divided by FRAME_RATE
 
 The array order goes like 

@@ -16,11 +16,6 @@ public class Screen {
 		frame.setVisible(true);
 		
 		simulation.go();
-		simulation.openFile();
-		simulation.getCases();
-		simulation.storeInputs();
-		simulation.printInputs();
-		simulation.closeFile();
 		
 	}
 

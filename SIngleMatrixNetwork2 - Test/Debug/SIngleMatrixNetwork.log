@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (.\Debug\) contains files shared from another project (SIngleMatrixNetwork.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  SIngleMatrixNetwork.cpp
+SIngleMatrixNetwork.cpp(12): warning C4101: 'j': unreferenced local variable
+  SIngleMatrixNetwork.vcxproj -> C:\Users\Good Speed i3\Desktop\SIngleMatrixNetwork2 - Test\.\Debug\SIngleMatrixNetwork.exe
+  SIngleMatrixNetwork.vcxproj -> .\Debug\SIngleMatrixNetwork.pdb (Full PDB)
